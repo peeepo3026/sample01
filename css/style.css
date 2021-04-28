@@ -67,6 +67,15 @@ nav .nav_bar .icon h2 {
   line-height: calc(34 / 26);
 }
 
+nav .nav_bar .icon h2 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav .nav_bar .icon h2 a:hover {
+  opacity: .5;
+}
+
 nav .nav_bar .menu {
   list-style: none;
 }
@@ -119,6 +128,10 @@ nav .nav_bar .menu ul li a {
     letter-spacing: 0.05em;
     line-height: calc(30 / 16);
   }
+}
+
+nav .nav_bar .menu ul li a:hover {
+  opacity: .5;
 }
 
 nav .nav_bar .hamburger-menu {
@@ -507,6 +520,10 @@ header .head_txt h1 {
   border: 1px solid #707070;
   -webkit-box-shadow: 0 0 6px #1B1310;
           box-shadow: 0 0 6px #1B1310;
+}
+
+.info .info_container .info_form form .button button:hover {
+  opacity: .5;
 }
 
 footer {
