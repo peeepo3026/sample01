@@ -4,6 +4,7 @@
           box-sizing: border-box;
   padding: 0;
   margin: 0;
+  outline: 1px solid blue;
 }
 
 .section {
@@ -19,12 +20,6 @@
 @media (max-width: 1030px) {
   .container {
     margin: 0 4%;
-  }
-}
-
-@media (max-width: 768px) {
-  .container {
-    min-width: 345px;
   }
 }
 
@@ -57,7 +52,6 @@ nav .nav_bar {
 
 @media (max-width: 768px) {
   nav .nav_bar {
-    min-width: 345px;
     margin: 0 4%;
   }
 }
@@ -238,6 +232,12 @@ header .head_txt h1 {
   header .head_txt h1 {
     font-size: 30px;
     line-height: calc(24 / 30);
+  }
+}
+
+@media (max-width: 325px) {
+  header .head_txt h1 {
+    line-height: calc(30 / 24);
   }
 }
 
@@ -470,7 +470,6 @@ header .head_txt h1 {
 
 @media (max-width: 768px) {
   .info .info_container {
-    min-width: 345px;
     margin: 0 4%;
   }
 }
